@@ -31,9 +31,6 @@ set updatetime=1000 "Writes swap file to disk if nothing is typed
     set shiftwidth=4    "Size of an indent
     set softtabstop=4   "Columns per TAB
     
-    " "## To improve -- Windowsize on GUI
-    "  call rpcnotify(0, 'Gui', 'WindowMaximized', 1)
-
     "
     "## Text Wrapping and formatting
     set textwidth=0
