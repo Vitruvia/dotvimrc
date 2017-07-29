@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/thales/lein-test/src/lein_test'
+let g:netrw_dirhist_2='/home/thales/lein-test/test'
+let g:netrw_dirhist_3='/home/thales/lein-test/test/lein_test'
+let g:netrw_dirhist_4='/home/thales/PracticalVim/code/files'
+let g:netrw_dirhist_5='/home/thales/Documents/PrTh'
+let g:netrw_dirhist_6='/home/thales/Documents/KR'
+let g:netrw_dirhist_7='/home/thales/.vim'
+let g:netrw_dirhist_8='/home/thales/Documents/algos_spec_stanford'
