@@ -46,7 +46,7 @@ Plugin 'https://github.com/vim-pandoc/vim-pandoc-syntax'
 
 "## Themes
 Plugin 'luochen1990/rainbow'                                  
-Plugin 'https://github.com/lu-ren/SerialExperimentsLain'
+Plugin 'https://github.com/Vitruvia/PersonalExperimentsLain'
 
 "##Status Line
 Plugin 'https://github.com/itchyny/lightline.vim'
