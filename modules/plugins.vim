@@ -66,4 +66,3 @@ Plugin 'https://github.com/Valloric/YouCompleteMe'
 
 call vundle#end()           " required
 filetype plugin indent on
-
