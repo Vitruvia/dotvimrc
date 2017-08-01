@@ -22,6 +22,10 @@ noremap j gj
 noremap k gk
 noremap gj j 
 noremap gk k
+nnoremap ^ g^
+nnoremap g^ ^
+nnoremap $ g$
+nnoremap g$ $
 
 "## Disable mouse
 set mouse=
