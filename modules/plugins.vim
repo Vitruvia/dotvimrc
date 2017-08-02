@@ -10,13 +10,21 @@ Plugin 'VundleVim/Vundle.vim'
 
 "## Faster editing and navigation
 Plugin 'https://github.com/tpope/vim-unimpaired'              
-Plugin 'tpope/vim-surround'                                   
 Plugin 'tpope/vim-repeat'                                     
 Plugin 'https://github.com/tpope/vim-commentary'              
+
+"## Easier handling of parens
 Plugin 'guns/vim-sexp'                                        
 Plugin 'tpope/vim-sexp-mappings-for-regular-people'
+Plugin 'tpope/vim-surround'                                   
+
+"## Better handling of sessions
 Plugin 'https://github.com/xolox/vim-session'                 
 Plugin 'https://github.com/xolox/vim-misc'                    
+
+"## Unix commands on vim
+Plugin 'https://github.com/tpope/vim-eunuch'
+
 
 "## Clojure
 Plugin 'tpope/vim-fireplace'                                  
@@ -48,7 +56,7 @@ Plugin 'https://github.com/vim-pandoc/vim-pandoc-syntax'
 Plugin 'luochen1990/rainbow'                                  
 Plugin 'https://github.com/Vitruvia/PersonalExperimentsLain'
 
-"##Status Line
+"## Status Line
 Plugin 'https://github.com/itchyny/lightline.vim'
  
 "## Writing and note taking
