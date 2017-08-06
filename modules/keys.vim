@@ -27,6 +27,10 @@ nnoremap g^ ^
 nnoremap $ g$
 nnoremap g$ $
 
+"## Bindings for tabs
+nnoremap<C-t>n :tabnew<CR>
+nnoremap<C-t>q :tabclose<CR>
+
 "## Disable mouse
 set mouse=
 
