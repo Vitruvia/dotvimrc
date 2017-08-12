@@ -1,12 +1,12 @@
-"## Beginning and and of Line
-nnoremap ç ^
-vnoremap ç ^
-onoremap ç ^
-nnoremap Ç $
-vnoremap Ç $
-onoremap Ç $
+""## Beginning and and of Line
+"nnoremap ç ^
+"vnoremap ç ^
+"onoremap ç ^
+"nnoremap Ç $
+"vnoremap Ç $
+"onoremap Ç $
 
-"## Unmapping arrows in normal and insert mode
+""## Unmapping arrows in normal and insert mode
 noremap <Up> <nop>
 noremap <Down> <nop>
 noremap <Left> <nop>
