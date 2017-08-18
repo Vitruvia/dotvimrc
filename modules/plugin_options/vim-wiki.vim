@@ -30,6 +30,14 @@
     let wiki_mischief.diary_rel_path='Mischief_diary/'
     let wiki_mischief.diary_index='mischief_diary'
         
+    "## Wiki for the IBS book
+    let wiki_IBS = {}
+    let wiki_IBS.path='~/Documents/Writing/IBS'
+    let wiki_IBS.path_html='~/Documents/Writing/IBS/'.
+                \'IBS_wiki_html'
+    let wiki_IBS.diary_rel_path='IBS_diary/'
+    let wiki_IBS.diary_index='IBS_diary'
+
     "## Activate the defined wikis
     let g:vimwiki_list = [wiki_Writing,wiki_desiderata, 
-            \ wiki_openhuman,wiki_mischief]
+            \ wiki_openhuman,wiki_mischief,wiki_IBS]
