@@ -25,7 +25,6 @@ Plugin 'https://github.com/xolox/vim-misc'
 "## Unix commands on vim
 Plugin 'https://github.com/tpope/vim-eunuch'
 
-
 "## Clojure
 Plugin 'tpope/vim-fireplace'                                  
 Plugin 'guns/vim-clojure-static'                              

@@ -5,6 +5,7 @@
     let wiki_Writing.path_html='~/Documents/Writing/Writing_html'
     let wiki_Writing.diary_rel_path='Writing_diary/'
     let wiki_Writing.diary_index='writing_diary'
+    let wiki_Writing.diary_link_fmt='%Y-%m-%d-%Hh%Mm%Ss'
 
     "## Wiki for the desiderata book
     let wiki_desiderata = {}
