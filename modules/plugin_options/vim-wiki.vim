@@ -39,6 +39,14 @@
     let wiki_IBS.diary_rel_path='IBS_diary/'
     let wiki_IBS.diary_index='IBS_diary'
 
+    "## Wiki for the videogame book
+    let wiki_videogame = {}
+    let wiki_videogame.path='~/Documents/Writing/videogame'
+    let wiki_videogame.path_html='~/Documents/Writing/videogame/'.
+                \'videogame_wiki_html'
+    let wiki_videogame.diary_rel_path='videogame_diary/'
+    let wiki_videogame.diary_index='videogame_diary'
+
     "## Activate the defined wikis
     let g:vimwiki_list = [wiki_Writing,wiki_desiderata, 
-            \ wiki_openhuman,wiki_mischief,wiki_IBS]
+            \ wiki_openhuman,wiki_mischief,wiki_IBS,wiki_videogame]
