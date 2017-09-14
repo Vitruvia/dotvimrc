@@ -47,6 +47,23 @@
     let wiki_videogame.diary_rel_path='videogame_diary/'
     let wiki_videogame.diary_index='videogame_diary'
 
+    "## Wiki for writing about my mental state
+    let wiki_med = {}
+    let wiki_med.path='~/Documents/Writing/med'
+    let wiki_med.path_html='~/Documents/Writing/videogame/'.
+                \'med.html'
+    let wiki_med.diary_rel_path='med_diary/'
+    let wiki_med.diary_index='med_diary'
+
+    "## Wiki for notes while studying medicine
+    let wiki_med = {}
+    let wiki_med.path='~/Documents/Writing/med'
+    let wiki_med.path_html='~/Documents/Writing/videogame/'.
+                \'med.html'
+    let wiki_med.diary_rel_path='med_diary/'
+    let wiki_med.diary_index='med_diary'
+
     "## Activate the defined wikis
     let g:vimwiki_list = [wiki_Writing,wiki_desiderata, 
-            \ wiki_openhuman,wiki_mischief,wiki_IBS,wiki_videogame]
+            \ wiki_openhuman,wiki_mischief,wiki_IBS,
+            \ wiki_videogame,wiki_mind,wiki_med]
