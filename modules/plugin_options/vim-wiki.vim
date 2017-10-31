@@ -48,22 +48,30 @@
     let wiki_videogame.diary_index='videogame_diary'
 
     "## Wiki for writing about my mental state
-    let wiki_med = {}
-    let wiki_med.path='~/Documents/Writing/med'
-    let wiki_med.path_html='~/Documents/Writing/videogame/'.
-                \'med.html'
-    let wiki_med.diary_rel_path='med_diary/'
-    let wiki_med.diary_index='med_diary'
+    let wiki_mind = {}
+    let wiki_mind.path='~/Documents/Writing/mind'
+    let wiki_mind.path_html='~/Documents/Writing/mind/'.
+                \'mind.html'
+    let wiki_mind.diary_rel_path='mind_diary/'
+    let wiki_mind.diary_index='mind_diary'
 
     "## Wiki for notes while studying medicine
     let wiki_med = {}
     let wiki_med.path='~/Documents/Writing/med'
-    let wiki_med.path_html='~/Documents/Writing/videogame/'.
+    let wiki_med.path_html='~/Documents/Writing/med/'.
                 \'med.html'
     let wiki_med.diary_rel_path='med_diary/'
     let wiki_med.diary_index='med_diary'
 
+    "## Wiki for notes on physical performance
+    let wiki_Physique = {}
+    let wiki_Physique.path='~/Documents/Writing/Physique'
+    let wiki_Physique.path_html='~/Documents/Writing/Physique/'.
+                \'Physique.html'
+    let wiki_Physique.diary_rel_path='Physique_diary/'
+    let wiki_Physique.diary_index='Physique_diary'
+
     "## Activate the defined wikis
     let g:vimwiki_list = [wiki_Writing,wiki_desiderata, 
             \ wiki_openhuman,wiki_mischief,wiki_IBS,
-            \ wiki_videogame,wiki_mind,wiki_med]
+            \ wiki_videogame,wiki_mind,wiki_med,wiki_Physique]

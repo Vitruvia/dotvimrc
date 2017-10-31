@@ -1,10 +1,10 @@
-""## Beginning and and of Line
-"nnoremap ç ^
-"vnoremap ç ^
-"onoremap ç ^
-"nnoremap Ç $
-"vnoremap Ç $
-"onoremap Ç $
+"## Beginning and and of Line
+nnoremap ç ^
+vnoremap ç ^
+onoremap ç ^
+nnoremap Ç $
+vnoremap Ç $
+onoremap Ç $
 
 ""## Unmapping arrows in normal and insert mode
 noremap <Up> <nop>
@@ -56,4 +56,7 @@ nnoremap <CR> :noh<CR><CR>
 
 "Fix marks for Brazilian keyboard
 nnoremap ' ` 
+
+"## Copy file path to clipboard
+command! CopyBuffer let @+ = expand('%:p')
 
