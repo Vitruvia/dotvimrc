@@ -42,6 +42,7 @@ Plugin 'https://github.com/donRaphaco/neotex'
 Plugin 'https://github.com/tpope/vim-markdown'
 Plugin 'https://github.com/nelstrom/vim-markdown-folding'
 Plugin 'https://github.com/JamshedVesuna/vim-markdown-preview'
+Plugin 'mauromorales/vim-remark'
 
 "## Python
 Plugin 'https://github.com/python-mode/python-mode'
