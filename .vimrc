@@ -28,7 +28,6 @@ set expandtab       "Always use spaces instead of tab characters
 set shiftwidth=4    "Size of an indent
 set softtabstop=4   "Columns per TAB
 
-
 "# Default text Wrapping and formatting
 set textwidth=0   "Turns textwidth off by default
 set wrapmargin=0  "Turns off insertion of <EOL> at right margin
@@ -37,4 +36,3 @@ set fo-=l         "When turned off lines also wrap on insert mode
 set fo-=o         "Turns off automatic insertion of commment leader on 'o'
 set wrap          "Soft wraps lines that are longer than the window
 set nolist        "Hides list characters but makes vim not break words on wrap
-

@@ -30,6 +30,8 @@ nnoremap g$ $
 "## Bindings for tabs
 nnoremap<C-t>n :tabnew<CR>
 nnoremap<C-t>q :tabclose<CR>
+nnoremap<C-t>l :tabprevious<CR>
+nnoremap<C-t>h :tabnext<CR>
 
 "## Disable mouse
 set mouse=

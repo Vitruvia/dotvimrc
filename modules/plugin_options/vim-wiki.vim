@@ -72,6 +72,4 @@
     let wiki_Physique.diary_index='Physique_diary'
 
     "## Activate the defined wikis
-    let g:vimwiki_list = [wiki_Writing,wiki_desiderata, 
-            \ wiki_openhuman,wiki_mischief,wiki_IBS,
-            \ wiki_videogame,wiki_mind,wiki_med,wiki_Physique]
+    let g:vimwiki_list = [wiki_Writing]
