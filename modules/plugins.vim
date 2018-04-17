@@ -54,6 +54,7 @@ Plugin 'https://github.com/vim-pandoc/vim-pandoc-syntax'
 ""## Themes
 Plugin 'luochen1990/rainbow'                                  
 Plugin 'https://github.com/Vitruvia/PersonalExperimentsLain'
+Plugin 'https://github.com/altercation/vim-colors-solarized'
 
 ""## Status Line
 Plugin 'https://github.com/itchyny/lightline.vim'
