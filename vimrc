@@ -1,5 +1,5 @@
 "# Windows specific options
-if has ('win32') || has('win64')
+if has ('win32') || has('win64') 
     runtime modules/windows.vim
 endif
 
