@@ -7,7 +7,7 @@ if (empty($TMUX))
     endif
 endif
 
-if has("gui_running")
+if has("nvim")
     colorscheme SerialExperimentsLain
 else
     colorscheme sierra
