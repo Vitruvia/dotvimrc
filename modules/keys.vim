@@ -1,4 +1,4 @@
-"## Beginning and and of Line
+"# Beginning and and of Line
 nnoremap ç ^
 vnoremap ç ^
 onoremap ç ^
@@ -6,7 +6,7 @@ nnoremap Ç $
 vnoremap Ç $
 onoremap Ç $
 
-""## Unmapping arrows in normal and insert mode
+"# Unmapping arrows in normal and insert mode
 noremap <Up> <nop>
 noremap <Down> <nop>
 noremap <Left> <nop>
@@ -17,7 +17,7 @@ inoremap <Down> <nop>
 inoremap <Left> <nop>
 inoremap <Right> <nop>
 
-"## Makes navigation easier in wrapped lines
+"# Makes navigation easier in wrapped lines
 noremap j gj
 noremap k gk
 noremap gj j 
@@ -27,38 +27,41 @@ nnoremap g^ ^
 nnoremap $ g$
 nnoremap g$ $
 
-"## Bindings for tabs
+"# Bindings for tabs
 nnoremap<C-t>n :tabnew<CR>
 nnoremap<C-t>q :tabclose<CR>
 nnoremap<C-t>l :tabprevious<CR>
 nnoremap<C-t>h :tabnext<CR>
 
-"## Disable mouse
+"# Disable mouse
 set mouse=
 
-"## Toggle Highlighting when beyond textwidth columns
+"# Toggle Highlighting when beyond textwidth columns
 nnoremap <f4> :call overlength#toggle()<CR>
 
-"## Copy to clipboard
+"# Copy to clipboard
 vnoremap  <leader>y  "+y
 nnoremap  <leader>Y  "+yg_
 nnoremap  <leader>y  "+y
 
-"## Paste from clipboard
+"# Paste from clipboard
 nnoremap <leader>p "+p
 nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
 
-"## Clear Search Highlighting
+"# Clear Search Highlighting
 nnoremap <CR> :noh<CR><CR>
 
-"## Toggle paste
+"# Toggle paste
 set pastetoggle=<f5>
 
-"Fix marks for Brazilian keyboard
+"# Fix marks for Brazilian keyboard
 nnoremap ' ` 
 
-"## Copy file path to clipboard
+"# Copy file path to clipboard
 command! CopyBuffer let @+ = expand('%:p')
+
+"# Make backspace work
+set backspace=indent,eol,start
 
